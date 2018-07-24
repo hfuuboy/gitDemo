@@ -2,7 +2,7 @@ package com.iflytek.file;
 
 public class Student {
 
-	private String id;
+	private Integer id;
 	private String name;
 	private String age;
 
@@ -10,18 +10,18 @@ public class Student {
 
 	}
 
-	public Student(String id, String name, String age) {
+	public Student(Integer id, String name, String age) {
 		this.id = id;
 		this.name = name;
 		this.age = age;
 
 	}
 
-	public String getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
